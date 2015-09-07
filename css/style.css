@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:700);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+html {
+  background: #111;
+  color: #ccc;
+  font-size: 16px;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  font-size: 6em;
+  text-align: center;
+  text-shadow: 2px 5px 5px red;
+  margin-top: 0px;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  min-width: 360px;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.timer{
+  color: #00f615;
+  font-family: 'Orbitron', monospace;
+  font-size: 8em;
+}
+.timer span {
+  margin: 0 -20px;
+}
+
+.breaktimer {
+  color: #E61010;
+  font-family: 'Orbitron', monospace;
+  font-size: 3em;
+}
+
+.breaktimer span {
+  margin: 0px;
+}
+.slider {
+  width: 50%;
+  min-width: 240px;
+  margin: 10px auto;
+}
+
+.ui-slider-horizontal{
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #333 #333 #777 #333;
+  box-shadow: inset 0 1px 5px 0px rgba(0, 0, 0, .5), 0 1px 0 0px rgba(25, 25, 25, .5);
+  background: #000;
+}
+.ui-slider-handle{
+  border-radius: 25px;
+  border-color: #888 #888 #aaa #888 !important;
+  outline: none;
+  background: #777 !important;
+  background: -webkit-radial-gradient(circle,#666,#555,#999) !important;
+  background: -o-radial-gradient(circle,#666,#555,#999) !important;
+  background: -moz-radial-gradient(circle,#666,#555,#999) !important;
+  background: radial-gradient(circle,#666,#555,#999) !important;
+}
+
+.buttons{
+  margin: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button{
+  height: 9em;
+  width: 9em;
+  line-height: 9em;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+  color: #888;
+  background-color: #242424;
+  background-image: -webkit-linear-gradient(top, #242424, #121212); 
+  background-image: -moz-linear-gradient(top, #242424, #121212);
+  background-image: -ms-linear-gradient(top, #242424, #121212);
+  background-image: -o-linear-gradient(top, #242424, #121212);
+  box-shadow: 0px 3px 8px #444, inset 0px 2px 3px #000;
+  border: 0;
+}
+
+#startButt:hover{
+  color: #ccc;
+  box-shadow: 0px 3px 8px #00f615, inset 0px 2px 3px #000;
+}
+#resetButt:hover{
+  color: #ccc;
+  box-shadow: 0px 3px 8px #E61010, inset 0px 2px 3px #000;
+}
